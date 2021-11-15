@@ -1,0 +1,78 @@
+/* DOCUMENTO CSS - REGRAS DE ESTILIZAÇÃO PARA FORMULARIO CONTATO1*/
+
+
+
+*{ margin: 0px;
+padding: 0px;
+}
+
+
+body{ background-color:#4682B4;
+}
+
+h1{font-family: Ms Trebuchet;
+font-size: 30px;
+color: #FFFFFF;
+text-align: center;
+}
+
+form{ margin: 50px;
+padding:10px;
+display:block;
+}
+
+label{font-family: Ms Trebuchet;
+font-size:18px;
+color: #C0C0C0;
+text-align: left;
+line-height : 10px;
+}
+
+#nome {font-family: Ms Trebuchet;
+font-size:15px;
+background-color:#FFFFFF;
+color: #C0C0C0;
+text-align: left;
+line-height: 10px;
+}
+#email {font-family: Ms Trebuchet;
+font-size:15px;
+background-color:#FFFFFF;
+color: #C0C0C0;
+text-align: left;
+line-height: 10px;
+}
+
+#telefone {font-family: Ms Trebuchet;
+font-size:15px;
+background-color:#FFFFFF;
+color: #C0C0C0;
+text-align: left;
+line-height : 10px;
+}
+
+#textarea {font-family: Ms Trebuchet;
+font-size:15px;
+background-color:#FFFFFF;
+color: #C0C0C0;
+text-align: left;
+line-height : 10px;
+resize: none; /* não permite redimensionar*/
+}
+
+h5{font-family: Ms Trebuchet;
+font-size: 10px;
+text-align: center;
+color:#FFFFFF;
+text-decoration: none; /* coloca uma decoração na font h5*/
+}
+
+@media screen and (min-width:220px) and (max-width:568px){
+body, fieldset, form, table, h5 { background: blue;}
+
+@media screen and (min-width:569px) and (max-width:1024px){
+body
+
+
+
+}

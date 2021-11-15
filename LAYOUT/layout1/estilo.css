@@ -1,0 +1,88 @@
+/*ARQUIVO estilo.css -exemplo1 criando layout */
+
+*{margin: 0px;
+padding:0px;
+}
+
+/* =container da página */
+#container {
+margin: 0px auto 0px auto;
+width: 960px;
+background:#ccddbb;
+}
+
+#cabecalho {
+margin:0px auto 0px auto;
+width:960px;
+height:82px;
+position:relative;
+background:#c0c0c0; /*roxo*/
+}
+
+#corpo{
+margin: 1px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 20px; /*margem interna inferior*/
+min-height:500px; /* altura mínima (section)*/
+}
+
+nav{
+margin:0px auto 0px auto;
+width:160px;
+height:500px;
+float:left;
+background:#c0c0ff;/*azul*/
+}
+
+section {
+margin:0px auto 0px auto;
+width:618px;
+height:500px;
+float:left;
+background:#c0c088;/*marrom*/
+margin-left:10px; /*margem esquerda*/
+}
+
+.cabecalho_artigo { /*roxo no marrom*/
+margin:0px auto 0px auto;
+width:598px;
+height:50px;
+float:left;
+background:#c0c0c0;
+margin:10px;
+}
+
+.artigo { /*roxo grande no marrom*/
+margin:0px auto 0px auto;
+width:598px;
+height:330px;
+float:left;
+background:#c0c0c0;
+margin:10px;
+}
+
+.rodape_artigo {
+margin:0px auto 0px auto;
+width:598px;
+height:50px;
+float:left;
+background:#c0c0c0;
+margin:10px;
+}
+
+#propaganda {
+margin:0px auto 0px auto;
+width:160px;
+height:500px;
+float:left;
+background:#c0c000; /*amarelo*/
+margin-left:10px;
+}
+
+#rodape {
+margin: 0px auto;
+padding-bottom: 20px;
+width: 960px;
+position: relative;
+background:#c0c0c0;
+}

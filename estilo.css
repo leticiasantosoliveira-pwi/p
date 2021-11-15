@@ -1,0 +1,41 @@
+/* APLICANDO ESTILIZAÇÃO NA PÀGINA MÉTODO3 CSS - REGRAS DE ESTILIZAÇÃO DE ARQUIVO EXTERNO PARA ESTA PÁGINA*/
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{background-color:#C0C0C0;
+
+}
+
+h1{ font-family: 'Comic Sans MS';
+font-size: 40px;
+color: #8B4513;
+text-align: center;
+}
+
+h3{ font-family: 'Arial';
+text-align: right;
+color: #0000FF;
+}
+
+h5{ padding-top:12px;
+font-family: 'Courier New';
+font-size: 12px;
+text-align: center;
+font-weight: bold; /* peso da font, aqui em negrito*/
+color:#8B4513;
+}
+
+p{padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+font-family: 'Ms Trebuchet';
+color: #0000FF;
+font-size: 24px;
+text-align: justify;
+text-indent: 35px;
+padding-bottom:40px;
+}
+

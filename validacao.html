@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title> Fale Conosco </title>
+<meta charset="UTF-8">
+<script language="javascript" type="text/javascript">
+
+function validar (){ //início da função para validar os campos
+var nome = form1.nome.value;
+var email = form1.email.value;
+var telefone = form1.telefone.value;
+
+if (nome == ""){
+alert ('Por favor, preencha o campo com o seu nome')
+form1.nome.focus ();
+return false;
+}
+
+if (email == ""){
+alert ('Por favor, preencha o campo com o seu e-mail')
+form1.email.focus ();
+return false;
+}
+
+if (telefone == ""){
+alert ('Por favor, preencha o campo com o seu número de telefone')
+form1.telefone.focus ();
+return false;
+}
+}//fim da função
+</script>
+</head>
+<link rel="icon" type="image/jpg" href="img/lua.png"/>
+<body bgcolor="FFFFF">
+<center><h1>Fale Conosco</h1></center>
+<form name="form1" action="frmAviso" method="post">
+Nome*: <input type= "text" name= "nome"><br><br><br><br>
+E-mail*: <input type= "email" name= "email"><br><br><br><br>
+Telefone*: <input type= "text" name= "telefone"><br><br><br><br>
+<textarea cols="45" rows="25" name="comentario">Qual o assunto?</textarea><br><br>
+
+<input type="submit" onclick="return validar ()" value="ENVIAR">
+<input type="reset" name= "LIMPA" value="LIMPAR">
+	
+	</form>
+	</body>
+ </head>
+</html>

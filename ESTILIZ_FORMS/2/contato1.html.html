@@ -1,0 +1,57 @@
+<!doctype HTML>
+<html>
+<head>
+<title> CONTATO1 -Estilização de Formulário em CSS </title>
+<meta charset="utf-8"> <!-- correção erros ortográficos -->
+<meta name="viewport" content="width=device-width, inicial-scale=1"> <!--otimização site para dispositivos móveis-->
+<link rel="icon" type="image/jpg" href="img_css.jpg"/> <!-- o ícone se encontra dentro da pasta icones com o nome lua.png -->
+<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+
+
+
+<body>
+
+
+
+<h1>Fale com a gente!</h1>
+<hr> <!--tag linha -->
+
+<form action="#" method="post">
+<fieldset>
+<label for="nome">Nome:</label> <!-- Apenas letras -->
+<input id="nome" name="nome" size="50" type="text"
+pattern="[a-zA-Z\s]+$"
+placeholder="Preencha o campo nome"
+title="Somente letras" required />
+
+<br>
+
+<label for="telefone">Telefone:</label> <!-- 83-98765-4321 -->
+<input id="telefone" name="telefone" size="50" type="tel"
+pattern="^\d{2}-\d{5}-\d{4}$"
+title="Insira o telefone no formato 83-98765-4321"
+required />
+
+<br>
+
+<label for="email">E-mail:</label>
+<input id="email" name="email" size="50" type="email"
+pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+tabindex="5" required>
+</fieldset>
+<br><br>
+<fieldset>
+<br>
+<label for="comentario"></label><textarea id="textarea" name="textarea " rows ="15" cols="145" placeholder="Deixe aqui seu comentário!"></textarea></td></label>
+</fieldset>
+
+<br>
+
+<button type="reset">Limpar</button>
+<button type="submit">Enviar</button>
+</form>
+</body>
+<hr>
+<h5> Célia Barufaldi- Todos os direitos resevados</h5>
+</html>

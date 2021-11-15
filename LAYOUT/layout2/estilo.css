@@ -1,0 +1,65 @@
+/*ARQUIVO estilo.css Layout- exemplo2*/
+
+* {margin: 0px;
+padding:0px;
+}
+
+html, body, div{
+margin: 0px;
+padding: 0px;
+font-family: verdana, arial;
+}
+
+body{
+width:100%;
+height:100%;
+}
+
+div{
+position: relative;
+float:left;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px; /*bordas arredondadas*/
+border-radius: 8px;
+}
+
+/*Começa meu container ou página ou recipiente*/
+#page{
+
+margin: 10px 10px 0px -300px;
+left:50%;
+width: 600px;
+height:500px;
+position: absolute;
+float: none;
+background-color:#ffffff;
+}
+
+#header{
+width:600px;
+height:100px;
+background-color:#0099ff;/*azul*/
+}
+
+#content{
+width:450px;
+height:300px;
+background-color:#00ffff;/*~verde*/
+}
+
+#menu{
+width:150px;
+height:300px;
+background-color:#ff5500;/*laranja*/
+}
+
+#footer{
+width:600px;
+height:100px;
+background-color:#ffff00;/*amarelo*/
+}
+
+
+
+
+

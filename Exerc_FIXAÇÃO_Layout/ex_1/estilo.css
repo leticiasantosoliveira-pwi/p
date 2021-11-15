@@ -1,0 +1,78 @@
+/* Excer_FIXAÇÃO_Layout ex_1*/
+
+*{margin: 0px;
+padding:0px;
+}
+
+#container {
+margin: 60px auto 0px auto;
+width: 702px;
+border: 1px solid black;
+}
+
+#logo {
+margin: 0px auto 0px auto;
+width: 151px;
+height: 110px;
+float: left;
+border-right: 1px solid black;
+}
+
+nav {
+margin: 0px auto 0px auto;
+width: 550px;
+height: 110px;
+float: right;
+}
+
+#corpo {
+margin: 0px auto 0px auto;
+padding-top: 110px; /*margem interna superior*/
+padding-bottom: 20px; /*margem interna inferior*/
+min-height: 416px; 
+position: center;
+width: 702px;
+}
+
+.retangulo {
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 20px; /*margem interna inferior*/
+min-height:170px;
+width: 700px;
+position: center;
+border-top: 1px solid black;
+}
+
+.quadro1 {
+margin: 0px auto 0px auto;
+width: 233px;
+height:234px;
+float: left;
+border-top: 1px solid black;
+border-right: 1px solid black;
+}
+
+.quadro2 {
+margin: 0px auto 0px auto;
+width: 233px;
+height:234px;
+float: left;
+border-top: 1px solid black;
+border-right: 1px solid black;
+}
+
+.quadro3 {
+margin: 0px auto 0px auto;
+width: 233px;
+height:234px;
+float: left;
+border-top: 1px solid black;
+}
+
+#rodape {
+margin: 0px auto;
+padding-bottom: 20px;
+width: 702px;
+position: center;
+border-top: 1px solid black;
+}
